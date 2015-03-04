@@ -15,6 +15,8 @@ export HISTSIZE=5000
 export HISTFILESIZE=5000
 export HISTCONTROL=ignoredups:ignorespace
 
+
+# custom git prompt support -- https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 source ~/.dotfiles/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE="enabled"
 export GIT_PS1_SHOWSTASHSTATE="enabled"
