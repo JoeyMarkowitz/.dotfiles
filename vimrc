@@ -5,8 +5,10 @@
 """""""""""""""""""
 " VIM USER INTERFACE
 """""""""""""""""""
-" show line number
+" Always show line number, but only in the current window
 set number
+:au WinEnter * :setlocal number
+:au WinLeave * :setlocal nonumber
 
 " Always show current position
 set ruler
@@ -59,8 +61,10 @@ set incsearch
 " PLUGINS 
 """""""""""""""""""
 execute pathogen#infect()
+filetype plugin indent on
 
 " Enable Syntastic
+let g:syntastic_python_python_exec = 'python2.7'
 let g:syntastic_python_checkers = ['pylama', 'python']
 let g:syntastic_warning_symbol = '!'
 let g:syntastic_check_on_open = 1
