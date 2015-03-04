@@ -15,7 +15,7 @@ export HISTSIZE=5000
 export HISTFILESIZE=5000
 export HISTCONTROL=ignoredups:ignorespace
 
-source ~/.git-prompt.sh
+source ~/.dotfiles/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE="enabled"
 export GIT_PS1_SHOWSTASHSTATE="enabled"
 export GIT_PS1_SHOWUPSTREAM="git"
