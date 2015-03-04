@@ -22,5 +22,5 @@ export GIT_PS1_SHOWUPSTREAM="git"
 export GIT_PS1_SHOWCOLORHINTS="enabled"
 export GIT_PS1_HIDE_IF_PWD_IGNORED="enabled"
 #export PS1="\[\033[0;33m\]\D{%b%d %H:%M} \u@\h \W$(__git_ps1 " (%s)"): \[\033[0m\]"
-export PROMPT_COMMAND='__git_ps1 "" " \[\033[0;33m\]\D{%b%d %H:%M} \u@\h \W: \[\033[0m\]"'
-#export PROMPT_COMMAND='__git_ps1 "" " \[\e[0;33m\]\D{%b%d %H:%M} \u@\h \[\e[m\]\W: \[\e[m\]"'
+#export PROMPT_COMMAND='__git_ps1 "" " \[\033[0;33m\]\D{%b%d %H:%M} \u@\h \W: \[\033[0m\]"'
+export PROMPT_COMMAND='__git_ps1 "\[\e[0;32m\]\D{%b%d %H:%M}\e[0m\] \[\e[0;33m\]\u@\h\[\e[0m\] " " \[\e[0;33m\]\W:\e[0m\] "'
