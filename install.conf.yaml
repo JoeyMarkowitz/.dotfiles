@@ -8,4 +8,5 @@
 
 - shell:
   - [git submodule update --init --remote --recursive, Upgrading and Installing submodules]
-  - [pip install dbgp vim-debug; install-vim-debug.py, Installing python vim debugger -- https://github.com/jaredly/vim-debug]
+  - [install_vim_pathogen.sh, Install vim pathogen]
+  - [pip install dbgp vim-debug; install-vim-debug.py, Installing python vim debugger github.com/jaredly/vim-debug]
