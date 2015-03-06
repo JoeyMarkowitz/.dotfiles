@@ -8,6 +8,7 @@ alias mv='mv -i'
 alias grep='grep --color=auto'
 alias la='ls -lah'
 alias ls='ls -F --color'
+alias ll='ls -lh'
 
 force_color_prompt=yes
 
