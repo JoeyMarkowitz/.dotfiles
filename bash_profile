@@ -42,6 +42,13 @@ export GIT_PS1_HIDE_IF_PWD_IGNORED="enabled"
 #git status on left side (single color)
 #export PROMPT_COMMAND='__git_ps1 "" " \[\033[0;33m\]\D{%b%d %H:%M} \u@\h \W: \[\033[0m\]"'
 
+#bash prompt color definition
+yellow='\e[0;33m'
+green='\e[0;32m'
+txtrst='\e[0m'    # Text Reset
+
 #alternating color git status on right side (multi color)
-export PROMPT_COMMAND='__git_ps1 "\[\e[0;32m\]\D{%b%d %H:%M}\e[0m\] \[\e[0;33m\]\u@\h\[\e[0m\] " " \[\e[0;33m\]\W:\e[0m\] "'
+#export PROMPT_COMMAND='__git_ps1 "\[\e[0;32m\]\D{%b%d %H:%M}\e[0m\] \[\e[0;33m\]\u@\h\[\e[0m\] " " \[\e[0;33m\]\W:\e[0m\] "'
+export PROMPT_COMMAND='__git_ps1 "\[$green\]\D{%b%d %H:%M} \[$yellow\]\u@\h\[$txtrst\] " " \[$yellow\]\W:\[$txtrst\] "'
+
 
