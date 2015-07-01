@@ -12,3 +12,6 @@
 [submodule "vim/bundle/sensible"]
 	path = vim/bundle/sensible
 	url = https://github.com/tpope/vim-sensible.git
+[submodule "color_schemes/solarized"]
+	path = color_schemes/solarized
+	url = https://github.com/altercation/solarized.git

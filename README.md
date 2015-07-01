@@ -22,3 +22,5 @@ https://github.com/tpope/vim-pathogen
 # dotfiles
 Source: https://github.com/anishathalye/dotbot
 
+# color schemes
+# NOTE: install iterm color scheme not vim color scheme for best results
